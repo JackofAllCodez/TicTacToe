@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <br><br>
+    <div id="grid">
+        <div id="row1">
+            <div class="box" id="box1" onclick="mark('box1')"> </div>
+            <div class="box" id="box2" onclick="mark('box2')"></div>
+            <div class="box" id="box3" onclick="mark('box3')"></div>
+        </div>
+        <div id="row2">
+            <div class="box" id="box4" onclick="mark('box4')"></div>
+            <div class="box" id="box5" onclick="mark('box5')"></div>
+            <div class="box" id="box6" onclick="mark('box6')"></div>
+        </div>
+        <div id="row3">
+            <div class="box" id="box7" onclick="mark('box7')"></div>
+            <div class="box" id="box8" onclick="mark('box8')"></div>
+            <div class="box" id="box9" onclick="mark('box9')"></div>
+    </div>
+    <br><br>
+    <div id="reset">
+        <button onclick="res()">Reset</button>
+    </div>
+    <script src="tictactoe.js"></script>
+    <br><br>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+*{
+    background-color:#cecece;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#grid {
+    text-align: center;
+}
+.box:hover{
+    cursor: pointer;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 85px; 
+    overflow: hidden;
+    text-align: center;
+}
+
+#box1{
+    border: solid 2px black;
+    border-top:0px;
+    border-left:0px;
+}
+#box2{
+    border-bottom: solid 2px black;
+}
+#box3{
+    border: solid 2px black;
+    border-top: 0px;
+    border-right: 0px;
+}
+#box4{
+    border-right: solid 2px black;
+}
+#box6{
+    border-left: solid 2px black;
+}
+#box7{
+    border: solid 2px black;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+#box8{
+    border-top: solid 2px black;
+
+}
+#box9{
+    border: solid 2px black;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+#reset{
+    text-align: center;
+}
+#reset button{
+    background-color: #a4a4a4;
+}
+#reset button:hover{
+    cursor: pointer;
+}
